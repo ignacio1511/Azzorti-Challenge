@@ -1,8 +1,4 @@
 import pandas as pd 
-import xlsxwriter
-
-workbook = xlsxwriter.Workbook('p2.xlsx')
-
 
 df = pd.read_excel("DATOS_SKU.xlsx", sheet_name="DATOS_SKU")
 
